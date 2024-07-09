@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency 'i18n', '~> 1.12'
-  spec.add_dependency 'paperclip', '>= 3.0.0'
+  spec.add_dependency 'kt-paperclip', "~> 6.4", ">= 6.4.1"
 
   spec.add_development_dependency "bundler", "~> 2.2.33"
   spec.add_development_dependency "rake"

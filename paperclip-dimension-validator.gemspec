@@ -20,6 +20,6 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'i18n', '~> 1.12'
   spec.add_dependency 'paperclip', '>= 3.0.0'
 
-  spec.add_development_dependency "bundler", "~> 1.3"
+  spec.add_development_dependency "bundler", "~> 2.2.33"
   spec.add_development_dependency "rake"
 end

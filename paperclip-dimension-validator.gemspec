@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "paperclip-dimension-validator"
-  spec.version       = '0.2.0'
+  spec.version       = '0.3.0'
   spec.authors       = ["Anthony Smith"]
   spec.email         = ["anthony@sticksnleaves.com"]
   spec.description   = %q{Validate image height and width for Paperclip}
@@ -17,9 +17,9 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.add_dependency 'i18n', '~> 0.7'
-  spec.add_dependency 'paperclip', '>= 3.0.0'
+  spec.add_dependency 'i18n', '~> 1.14'
+  spec.add_dependency 'kt-paperclip', '~> 7.0'
 
-  spec.add_development_dependency "bundler", "~> 1.3"
+  spec.add_development_dependency "bundler", "~> 2.5.14"
   spec.add_development_dependency "rake"
 end

@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "paperclip-dimension-validator"
-  spec.version       = '0.3.0'
+  spec.version       = '3.0.0'
   spec.authors       = ["Anthony Smith"]
   spec.email         = ["anthony@sticksnleaves.com"]
   spec.description   = %q{Validate image height and width for Paperclip}

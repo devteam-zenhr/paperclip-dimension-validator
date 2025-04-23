@@ -18,3 +18,4 @@ tmp
 .rbenv*
 .rvmrc
 .DS_Store
+.idea/
